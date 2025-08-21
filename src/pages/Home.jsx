@@ -22,7 +22,7 @@ const Home = () => {
         <button
           onClick={() => navigate("/register")}
           className="w-full bg-[#6C25FF] text-white font-sm p-[10px] 
-                    rounded active:scale-95 transition-all duration-200"
+                rounded active:scale-95 transition-all duration-200"
         >
           Create Account
         </button>
@@ -30,7 +30,7 @@ const Home = () => {
         <button
           onClick={() => navigate("/login")}
           className="w-full bg-[#6C25FF4B] font-sm p-[10px] rounded 
-                    active:scale-95 transition-all duration-200"
+                  active:scale-95 transition-all duration-200"
         >
           Already Registered? Login
         </button>
