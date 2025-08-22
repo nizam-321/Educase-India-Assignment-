@@ -1,5 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import profileImg from "../assets/profileImg.png";
+import cameraImg from "../assets/cameraImg.png";
+
 
 
 
@@ -9,8 +12,7 @@ const Profile = () => {
     location.state || {};
   return (
     <div
-      className="min-h-screen w-full max-w-[375px] mx-auto 
-                    flex flex-col bg-[#F7F8F9] border border-[#6C25FF4B]"
+      className="min-h-screen w-full max-w-[375px] mx-auto flex flex-col bg-[#F7F8F9] border border-[#6C25FF4B]"
     >
       {/* Header Section */}
       <div className="bg-white w-full px-5 py-5">
@@ -23,15 +25,14 @@ const Profile = () => {
           {/* profile image */}
           <div className="relative">
             <img
-              src="/src/assets/profile.png"
+              src={profileImg}
               alt="Profile"
               className="w-[76px] h-[76px] rounded-full  mt-5"
             />
             <img
-              src="/src/assets/cam.png"
-              alt="camera iamge"
-              className="w-[23px] h-[23px] rounded-full mt-5 
-                      absolute rigth-5 top-12 cursor-pointer left-14"
+              src={cameraImg}
+              alt="cameraicon"
+              className="w-[23px] h-[23px] rounded-full mt-5 absolute rigth-5 top-12 cursor-pointer left-14"
             />
           </div>
           {/* user detail */}

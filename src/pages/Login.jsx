@@ -21,15 +21,10 @@ const Login = () => {
   };
   return (
     <div
-      className=" min-h-screen w-full max-w-[375px] mx-auto 
-            px-5 py-10 
-            flex flex-col justify-start
-            bg-[#F7F8F9] 
-            border border-[#6C25FF4B]"
+      className=" min-h-screen w-full max-w-[375px] mx-auto px-5 py-10 bg-[#F7F8F9] flex flex-col justify-startbg-[#F7F8F9] border border-[#6C25FF4B]"
     >
       <h1
-        className=" w-[200px] text-[28px] 
-                 font-bold text-[#1D2226]"
+        className=" w-[200px] text-[28px] font-bold text-[#1D2226]"
       >
         Signin to your PopX account
       </h1>
@@ -46,8 +41,7 @@ const Login = () => {
         <div className="relative">
           <label
             for="email"
-            className="text-[13px] text-[#6C25FF] bg-[#F7F8F9]
-                       absolute -top-1.5 left-3.5  pl-1 pr-2"
+            className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-1.5 left-3.5  pl-1 pr-2"
           >
             Email Address
           </label>
@@ -58,16 +52,14 @@ const Login = () => {
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full border border-[#CBCBCB] bg-[#F7F8F9] 
-                       rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+            className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
           />
         </div>
         {/* Password Input */}
         <div className="relative">
           <label
             for="password"
-            className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] 
-                       absolute -top-1.5 left-3.5  pl-1 pr-2"
+            className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-1.5 left-3.5  pl-1 pr-2"
           >
             Password <span className="text-red-500">*</span>
           </label>
@@ -78,14 +70,12 @@ const Login = () => {
             required
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full border border-[#CBCBCB] bg-[#F7F8F9] 
-                      rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+            className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
           />
         </div>
         {/* Submit Button */}
         <button
-          className="w-full bg-[#CBCBCB] text-white  p-[10px] rounded
-                           active:scale-95 transition-all duration-200 "
+          className="w-full bg-[#CBCBCB] text-white  p-[10px] rounded active:scale-95 transition-all duration-200"
         >
           Login
         </button>

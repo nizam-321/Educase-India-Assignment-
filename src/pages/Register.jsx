@@ -26,8 +26,7 @@ const Register = () => {
 
   return (
     <div
-      className="min-h-screen w-full max-w-[375px] mx-auto px-5 py-10 
-                    flex flex-col bg-[#F7F8F9] border border-[#6C25FF4B]"
+      className="min-h-screen w-full max-w-[375px] mx-auto px-5 py-10 flex flex-col bg-[#F7F8F9] border border-[#6C25FF4B]"
     >
       <h1 className="w-[200px] text-[28px] font-bold text-[#1D2226]">
         Create your PopX account
@@ -39,12 +38,11 @@ const Register = () => {
         className="flex flex-col justify-between flex-grow mt-10 h-full"
       >
         <div className="flex flex-col gap-5">
-          {/* Name */}
+          {/* Name Input */}
           <div className="relative">
             <label
               htmlFor="name"
-              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] 
-                        absolute -top-2 left-3.5 pl-1 pr-2"
+              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-2 left-3.5 pl-1 pr-2"
             >
               Name <span className="text-red-500">*</span>
             </label>
@@ -55,8 +53,7 @@ const Register = () => {
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] 
-                        rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
             />
           </div>
 
@@ -64,8 +61,7 @@ const Register = () => {
           <div className="relative">
             <label
               htmlFor="phone"
-              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9]
-                         absolute -top-2 left-3.5 pl-1 pr-2"
+              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-2 left-3.5 pl-1 pr-2"
             >
               Phone number <span className="text-red-500">*</span>
             </label>
@@ -76,8 +72,7 @@ const Register = () => {
               required
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="w-full border border-[#CBCBCB] bg-[#F7F8F9]
-                         rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
             />
           </div>
 
@@ -85,8 +80,7 @@ const Register = () => {
           <div className="relative">
             <label
               htmlFor="email"
-              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9]
-                         absolute -top-2 left-3.5 pl-1 pr-2"
+              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-2 left-3.5 pl-1 pr-2"
             >
               Email Address <span className="text-red-500">*</span>
             </label>
@@ -97,8 +91,7 @@ const Register = () => {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full border border-[#CBCBCB] bg-[#F7F8F9]
-                        rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
             />
           </div>
 
@@ -106,8 +99,7 @@ const Register = () => {
           <div className="relative">
             <label
               htmlFor="password"
-              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9]
-                         absolute -top-2 left-3.5 pl-1 pr-2"
+              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-2 left-3.5 pl-1 pr-2"
             >
               Password <span className="text-red-500">*</span>
             </label>
@@ -118,8 +110,7 @@ const Register = () => {
               required
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] 
-                        rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
             />
           </div>
 
@@ -127,8 +118,7 @@ const Register = () => {
           <div className="relative">
             <label
               htmlFor="company"
-              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] 
-                            absolute -top-2 left-3.5 pl-1 pr-2"
+              className="text-[13px] text-[#6C25FF] bg-[#F7F8F9] absolute -top-2 left-3.5 pl-1 pr-2"
             >
               Company Name
             </label>
@@ -138,8 +128,7 @@ const Register = () => {
               placeholder="Enter company name"
               value={company}
               onChange={(e) => setCompany(e.target.value)}
-              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] 
-                      rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
+              className="w-full border border-[#CBCBCB] bg-[#F7F8F9] rounded-md px-[18px] pt-2.5 pb-2 focus:outline-none"
             />
           </div>
 
@@ -176,8 +165,7 @@ const Register = () => {
         </div>
 
         <button
-          className="w-full bg-[#6C25FF] text-white p-[10px] rounded
-                       active:scale-95 transition-all duration-200 mt-6"
+          className="w-full bg-[#6C25FF] text-white p-[10px] rounded active:scale-95 transition-all duration-200 mt-6"
         >
           Create Account
         </button>
