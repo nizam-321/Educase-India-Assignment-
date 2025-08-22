@@ -46,6 +46,12 @@ npm start
 - For any queries, feel free to contact me.
 
 ---
+## Submission Timeline
+- Task Assigned: August 20, 2025 at 6:00 PM  
+- Deadline: August 22, 2025  
+- Project Submitted: August 21, 2025
+- Duration: Completed within ~24 hours of assignment
+
 
 **Submitted by:** [Nizam]  
 **Email:** [nizam.frontend@gmail.com]
