@@ -1,12 +1,51 @@
-# React + Vite
+# Educase India Assignment – React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a pixel-perfect React JS implementation of the provided Adobe XD mobile app design. The interface is centered on the webpage and features seamless navigation between pages.
 
-Currently, two official plugins are available:
+## 📱 Design Reference
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Adobe XD Design Link](https://xd.adobe.com/view/b68eea25-003d-4a5d-8fdd-d463eeb20b32-e3dd/)
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Hosted on Vercel/Netlify:  
+[Live Site Link](https://popxeducaseindia.vercel.app/)
+
+
+
+## ✨ Features
+
+- Pixel-perfect UI based on the provided design
+- Responsive and centered mobile app interface
+- Smooth navigation between pages
+- Clean, well-formatted code
+
+## 🛠️ Tech Stack
+
+- React JS
+- Tailwind CSS (for styling)
+- React Router (for navigation)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
+npm install
+npm start
+```
+
+## 📋 Usage
+
+- Open [http://localhost:3000](http://localhost:3000) to view the app in your browser.
+
+## 📝 Notes
+
+- The assignment is hosted on Vercel/Netlify as required.
+- The design is implemented as per the Adobe XD reference.
+- For any queries, feel free to contact me.
+
+---
+
+**Submitted by:** [Nizam]  
+**Email:** [nizam.frontend@gmail.com]
